@@ -20,19 +20,19 @@
 ```
 BullsandBears/
 ├── notebooks/
-│   ├── 01_plot_sr.ipynb         # Visualize support/resistance
-│   ├── 02_predict_prices.ipynb  # Price prediction notebook
+│   ├── 01_plot_sr.ipynb         
+│   ├── 02_predict_prices.ipynb  
 ├── src/
-│   ├── data_loader.py           # Data download and saving
-│   ├── support_resistance.py    # Support/Resistance detection logic
-│   ├── predictor.py             # Linear regression price forecasting
-│   ├── indicator.py             # Technical indicators (SMA, EMA, RSI, MACD)
-│   └── classifier.py            # [Coming Soon] Direction classifier
+│   ├── data_loader.py           
+│   ├── support_resistance.py    
+│   ├── predictor.py             
+│   ├── indicator.py             
+│   └── classifier.py            
 ├── data/
-│   ├── raw/                     # Raw downloaded price data
-│   └── processed/               # Processed data like SR levels, predictions
+│   ├── raw/                     
+│   └── processed/               
 ├── README.md
-└── requirements.txt             # Dependencies
+└── requirements.txt             
 ```
 
 ---

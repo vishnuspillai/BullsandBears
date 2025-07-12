@@ -1,2 +1,5 @@
 yfinance
 pandas
+scipy
+plotly
+nbformat>=5.0

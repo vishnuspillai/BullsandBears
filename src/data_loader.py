@@ -4,7 +4,7 @@ import os
 
 def download_stock_data(symbol: str, period: str = "1y", interval: str = "1d", save: bool = True) -> pd.DataFrame:
     print(f"Downloading {symbol}...")
-    df = yf.download(symbol, period=period, interval=interval)
+    df = yf.download(symbol, period=period, interval=interval, auto_adjust=True, prepost=True)
     df.reset_index(inplace=True)
 
     if save:

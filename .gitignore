@@ -1,0 +1,61 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# Virtualenv
+# --------------------
+.venv/
+env/
+ENV/
+venv/
+*.env
+
+# --------------------
+# VSCode
+# --------------------
+.vscode/
+*.code-workspace
+
+# --------------------
+# Data
+# --------------------
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.tsv
+
+# --------------------
+# Logs and temp
+# --------------------
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --------------------
+# OS Files
+# --------------------
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --------------------
+# Misc
+# --------------------
+*.bak
+*.swp
+*~
